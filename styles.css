@@ -1,0 +1,302 @@
+/*
+Name: Melissa Mika
+Date: 9/29/22
+About a Company Assignment
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: #5BA199;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+}
+
+.fa-brands {
+    font-size: 2em;
+    color: white;
+    padding-right: 5px;
+}
+
+.socialmedia {
+
+    position: fixed;
+    top: 0px;
+    right: 25px;
+    z-index: 20;
+
+}
+
+
+a:link {
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 25px;
+    color:white;
+
+}
+
+a:visited {
+    color: #7e3b10;
+}
+
+a:hover {
+    color: white;
+
+}
+
+a:active {
+    color: darkgreen;
+}
+
+body {
+    background-color: blanchedalmond;
+    height: 100%;
+    overflow: scroll;
+}
+
+#page-container {
+
+    position: relative;
+    min-height: 100%;
+}
+
+.bodyhome {
+
+    background-image: url("golden-retiever.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+
+}
+
+header {
+
+    position: relative;
+    top: 25px;
+    left: -370px;
+    padding-bottom: 25px;
+    font-size: larger;
+}
+
+span {
+    color: maroon;
+    font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+
+}
+
+h1 {
+    color: #5BA199;
+    text-shadow: 2px 2px 3px black;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+h2,
+h3 {
+    color: #7e3b10;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+#container {
+    width: 50%;
+    margin-left: 15px;
+    margin-top: 70px;
+    padding-bottom: 180px;
+    text-align: center;
+    color: #14514a;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#content-wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.fa-solid {
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.services {
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+.services2 {
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.services3 {
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+
+.left {
+    float: left;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.right {
+    float: right;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+.left2 {
+    float: left;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border: 5px maroon solid;
+    padding: 15px;
+
+}
+
+.clearfloat {
+    clear: both;
+}
+
+p {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+
+
+
+   section img {
+    max-width: 80%;
+   }
+
+   #contactus {
+    padding-top: 50px;
+    padding-bottom: 25px;
+   }
+
+  h4 {
+    color: maroon;
+    padding-bottom: 10px;
+    padding-top: 15px;
+   }
+
+   img {
+    float: right;
+    border-radius: 10px;
+    padding-top: 200px;
+    padding-right: 175px;
+    filter: drop-shadow(8px 8px 10px gray);
+    border-radius: 8px;
+   }
+
+   
+    .contactinfo {
+       
+        display: block;
+        margin-bottom: 15px;
+        margin-left: 5%;
+        padding-top: 25px;
+    }
+
+    .textarea {
+        padding-top: 25px;
+        margin-left: 5%;
+    }
+
+    .formcontainer {
+       margin-left: 50px;
+    }
+
+    .checkbox {
+        display: inline-block;
+        padding-bottom: 10px;
+        margin-left: 5%;
+        
+    }
+
+    .match {
+        margin-left: 5%;
+    }
+
+    .breed {
+        margin-left: 5%;
+    }
+
+   
+     label {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    .submit {
+    width: initial;
+    position: initial;
+    color: maroon;
+    margin-top: 30px;
+    padding: 3px 3px; 
+    margin-left: 5%;
+   }
+
+   footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #5BA199;
+    color: maroon;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+   padding-top: 15px;
+   padding-bottom: 10px;
+
+    }
+
+    label {
+        display: inline-block;
+    }
+   
+
+  
